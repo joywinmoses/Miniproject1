@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+.top{
+    background-color: rgb(106, 114, 106);
+    width: 100vw;
+    height: 100px;
+}
+body{
+    background-color: rgb(75, 68, 68);
+
+}
+.middle{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.middle h1{
+    margin: 5px;
+    font-family:  cursive;
+    font-size: 40px;
+    color: rgb(82, 199, 199);
+}
+.middle h2{
+    margin: px;
+    font-family:  cursive;
+    font-size: 40px;
+    color: rgb(107, 157, 198);
+}
+.intro1{
+    background-size: 220px;
+    background-position: center;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-position:80px;
+}
+
+h1:hover{
+    color: rgb(89, 152, 172);
+    font-size: 50px;
+    text-decoration: underline;
+}
+h2:hover{
+    color: rgb(90, 183, 205);
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+.profile{
+    position: relative;
+    border-radius: 50%;
+    width: 20%;
+    height: 40%;
+    background: var(h2);
+    bottom: 30px;   
+}
+.profile:hover{
+    width: 25%;
+    height: 50%;
+}
+.imga{
+    border-radius: 50%;
+}
+img:hover{
+    box-sizing: border-box;
+}
+hr{
+    border-style: none;
+    border-top: dotted;
+    border-width: 5px;
+    width: 70%;
+    border-color: rgb(122, 185, 201);
+    margin: 10px;
+    padding: 10px;
+}
+.skill{
+    color: aqua;
+}
+.ah1{
+    color: aqua;
+}
+p{
+    color: rgb(184, 237, 241);
+    font-family:  cursive;
+
+
+}
+.about{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+}
+.contain{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contain h2:hover{
+    color: rgb(132, 240, 231);
+    font-size: 25px;
+    text-decoration: underline;
+}
+.about h2{
+    margin: 5px;
+    padding: 5px;
+}
+.about p{
+    margin: 5px;
+    padding: 5px;
+}
+.about img{
+    height: 10vw;
+    width: 10vw;
+    margin: 20px;
+    transition: all .4s ease-in ;
+}
+.about img:hover{
+    width: 12vw;
+    height: 12vw;
+}
+
+p:hover{
+    text-decoration: underline;
+}
+.about .aimg2{
+    height: 8vw;
+    width: 15vw;
+}
+.about .aimg3{
+    height: 8vw;
+    width: 10vw;
+}
+.about .aimg4{
+    height: 12vw;
+    width: 12vw;
+}
+.about .aimg5{
+    height: 12vw;
+    width: 20vw;
+}
+.about .aimg2:hover{
+    height: 14vw;
+    width: 25vw;
+}
+.about .aimg5:hover{
+    height: 10vw;
+    width: 12vw;
+}
+.bottom{
+    background-color: rgb(106, 114, 106);
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+.linkimg{
+    width: 2vw;
+    padding: 10px;
+}
+.linkimg:hover{
+    width: 4vw;
+}
+.bottom a{
+    color: #4c4b4b;
+}
